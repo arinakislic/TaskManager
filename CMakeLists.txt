@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.10) 
+project(TaskManager) 
+add_executable(task_manager main.cpp) 

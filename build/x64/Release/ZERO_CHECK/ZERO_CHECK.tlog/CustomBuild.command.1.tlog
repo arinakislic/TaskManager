@@ -1,0 +1,10 @@
+^C:\USERS\MARKE\DESKTOP\TASK_MANAGER\BUILD\CMAKEFILES\2B5F9AFF851C7D8BA4434FC348466447\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SC:/Users/marke/Desktop/task_manager -BC:/Users/marke/Desktop/task_manager/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/marke/Desktop/task_manager/build/TaskManager.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\Users\marke\Desktop\task_manager\main.cpp(30,28): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\marke\Desktop\task_manager\main.cpp(34,14): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\marke\Desktop\task_manager\main.cpp(99,22): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  task_manager.vcxproj -> C:\Users\marke\Desktop\task_manager\build\Debug\task_manager.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
